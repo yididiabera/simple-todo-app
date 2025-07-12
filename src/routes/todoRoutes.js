@@ -6,13 +6,13 @@ const router = express.Router()
 // Get all todos
 router.get('/', getTodos)
 
-
+// Create a todo
 router.post('/', createTodo)
 
-
+// Update a todo
 router.put('/:id', updataTodo)
 
-
+// Delete a todo
 router.delete('/:id', deleteTodo)
 
 export default router;
